@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,167 @@
   to {
     transform: rotate(360deg);
   }
+}
+.main-icon{
+  height: 80px;
+} */
+
+.body{
+  background-color:#3b5d50;
+  /* font-family: Inter, sans-serif; */
+  min-height: 600px;
+  padding-left: 100px;
+ 
+ 
+}
+.nav{
+  background-color:#3b5d50;
+  /* font-family: Inter, sans-serif; */
+  min-height: 70px;
+  padding-left: 100px;
+ 
+ 
+}
+/* .overlay{
+  background-color: rgba(44, 43, 43, 0.5);
+  height: 100%;
+  width: 100%;
+  position: absolute ;
+  z-index: 10;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+} */
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-right: 95px;
+  padding-top: 5px;
+}
+
+.logo{
+  font-size: 32px;
+  font-weight: 600;
+  color:white
+}
+
+
+.nav-links li{
+  display: inline;
+  margin-right: 18px;
+  
+}
+
+.nav-links1 li{
+  display: inline;
+  margin-right: 15px;
+  
+}
+.dot{
+  color: rgba(255, 255, 255, 0.55) ;
+  font-size: 60px;
+}
+
+.right-nav{
+  display: flex;
+}
+.first1{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 16px;
+  padding-right: 0.5rem;
+  padding-left:0.5rem ;
+  position: relative;
+  font-weight: 500;
+  /* opacity: 0.5; */
+ 
+}
+.first1:hover{
+  text-decoration: none;
+  color: white;
+ font-size: 16px;
+ font-weight: 500;
+ padding-right: 0.5rem;
+ padding-left:0.5rem ;
+ position: relative;
+ border-bottom: rgb(238, 191, 38) solid 5px ;
+ padding-bottom: 10px;
+
+}
+.first{
+  text-decoration: none;
+  color: white;
+ font-size: 16px;
+ font-weight: 500;
+ padding-right: 0.5rem;
+ padding-left:0.5rem ;
+ position: relative;
+ border-bottom: rgb(238, 191, 38) solid 5px  ;
+ padding-bottom: 10px;
+}
+.first2{
+  text-decoration: none;
+  /* color: white; */
+ font-size: 20px;
+ font-weight: 500;
+ padding-right: 0.5rem;
+ padding-left:0.5rem ;
+ position: relative;
+ 
+}
+.text{
+  padding-top: 100px;
+  width: 40%;
+  /* padding-left: 70px; */
+}
+
+h1{
+  color: white;
+  font-size: 40px;
+  line-height: 55px;
+}
+p{
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 15px;
+  line-height: 25px;
+
+}
+
+.button{
+  margin-top: 30px;
+}
+
+.but1{
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 15px;
+  background-color: yellow;
+  font-weight: 700;
+  border-style: none;
+
+
+}
+.but2{
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 15px;
+  background-color: #3b5d50;
+  font-weight: 700;
+  border-style: none;
+  color: white;
+  margin-left: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.55);
+
+
+
+}
+
+.but2:hover{
+  border-color: white;
 }
