@@ -1,0 +1,85 @@
+.body{
+    background-color:#3b5d50;
+    /* font-family: Inter, sans-serif; */
+    height: 550px;
+    padding-left: 100px;
+   
+   
+  }
+
+  .dots{
+    position: absolute;
+    height: 217px;
+    left: 64%;
+    top: 40px;
+  }
+
+  .but1{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 15px;
+    background-color: yellow;
+    font-weight: 700;
+    border-style: none;
+  
+  
+  }
+  .but2{
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 15px;
+    background-color: #3b5d50;
+    font-weight: 700;
+    border-style: none;
+    color: white;
+    margin-left: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.55);
+  
+  
+  
+  }
+  
+  .but2:hover{
+    border-color: white;
+  }
+
+  .texts{
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 17px;
+    line-height: 20px;
+  
+  }
+  .button{
+    margin-top: 30px;
+  }
+
+  .text{
+    padding-top: 100px;
+    width: 40%;
+    /* padding-left: 70px; */
+  }
+  
+  h1{
+    color: white;
+    font-size: 40px;
+    line-height: 55px;
+  }
+  p{
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 13px;
+    line-height: 25px;
+  } 
+  .img2{
+    position: absolute;
+    z-index: 10;
+   
+    width: 100%;
+    /* margin-left: 40px; */
+  } 
+
+  .sect{
+    display: flex;
+    
+  }

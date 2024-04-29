@@ -2,7 +2,10 @@ import { Link } from "react-router-dom"
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faUser} from '@fortawesome/free-regular-svg-icons';
 import {faShoppingCart} from '@fortawesome/free-solid-svg-icons';
-const Navbar = ()=>{
+import "../App.css"
+import { uniqueArray } from "../utils/generics";
+import { useState } from "react";
+const Navbar = ({cart})=>{
     return (
         <div className="nav">
             <div className="navbar">
@@ -14,22 +17,26 @@ const Navbar = ()=>{
                         </li>
 
                         <li>
-                            <Link className="first1"  to="/">Shop</Link>
+                            <Link className="first1"  to="/shop">Shop</Link>
+                          
+                        
+    
+                             
                         </li>
 
                         <li>
-                            <Link className="first1"  to="/">About us</Link>
+                            <Link className="first1"  to="/about_us">About us</Link>
                         </li>
 
                         <li>
-                            <Link className="first1"   to="/">Services</Link>
+                            <Link className="first1"   to="/services">Services</Link>
                         </li>
                         <li>
-                            <Link className="first1"  to="/">Blogs</Link>
+                            <Link className="first1"  to="/blog">Blogs</Link>
                         </li>
 
                         <li>
-                            <Link className="first1"  to="/">Contact us</Link>
+                            <Link className="first1"  to="/contact_us">Contact us</Link>
                         </li>
                         
                     </ul>
@@ -45,6 +52,7 @@ const Navbar = ()=>{
                             <li>
                                 <Link className="first2" to="/" style={{color:"black"}}>
                                     <FontAwesomeIcon icon={faShoppingCart}/>
+                                    <span className=" badge  cart-badge">{ uniqueArray(cart).length}</span>
 
                                 </Link>
                             </li>
